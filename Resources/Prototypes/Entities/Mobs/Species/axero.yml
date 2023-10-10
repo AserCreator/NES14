@@ -1,0 +1,139 @@
+- type: species
+  id: Axero
+  name: species-name-axero
+  roundStart: true
+  prototype: MobAxero
+  sprites: MobAxeroSprites
+  defaultSkinTone: "#eeeeee"
+  markingLimits: MobAxeroMarkingLimits
+  dollPrototype: MobAxeroDummy
+  skinColoration: Hues
+  naming: FirstDashFirst
+
+- type: speciesBaseSprites
+  id: MobAxeroSprites
+  sprites:
+    Head: MobAxeroHead
+    Snout: MobHumanoidAnyMarking
+    Chest: MobAxeroTorso
+    HeadTop: MobHumanoidAnyMarking
+    HeadSide: MobHumanoidAnyMarking
+    Tail: MobHumanoidAnyMarking
+    Eyes: MobHumanoidEyes
+    LArm: MobAxeroLArm
+    RArm: MobAxeroRArm
+    LHand: MobAxeroLHand
+    RHand: MobAxeroRHand
+    LLeg: MobAxeroLLeg
+    RLeg: MobAxeroRLeg
+    LFoot: MobAxeroLFoot
+    RFoot: MobAxeroRFoot
+
+- type: markingPoints
+  id: MobAxeroMarkingLimits
+  onlyWhitelisted: true
+  points:
+    Hair:
+      points: 1
+      required: true
+    FacialHair:
+      points: 0
+      required: false
+    Tail:
+      points: 1
+      required: true
+      defaultMarkings: [ AxeroTailSmooth ]
+    Snout:
+      points: 0
+      required: false
+      defaultMarkings: [ AxeroSnoutRound ]
+    HeadTop:
+      points: 0
+      required: false
+    HeadSide:
+      points: 0
+      required: false
+
+- type: humanoidBaseSprite
+  id: MobAxeroHead
+  baseSprite:
+    sprite: Mobs/Species/Axero/parts.rsi
+    state: head_m
+
+- type: humanoidBaseSprite
+  id: MobAxeroHeadMale
+  baseSprite:
+    sprite: Mobs/Species/Axero/parts.rsi
+    state: head_m
+
+- type: humanoidBaseSprite
+  id: MobAxeroHeadFemale
+  baseSprite:
+    sprite: Mobs/Species/Axero/parts.rsi
+    state: head_f
+
+- type: humanoidBaseSprite
+  id: MobAxeroTorso
+  baseSprite:
+    sprite: Mobs/Species/Axero/parts.rsi
+    state: torso_m
+
+- type: humanoidBaseSprite
+  id: MobAxeroTorsoMale
+  baseSprite:
+    sprite: Mobs/Species/Axero/parts.rsi
+    state: torso_m
+
+- type: humanoidBaseSprite
+  id: MobAxeroTorsoFemale
+  baseSprite:
+    sprite: Mobs/Species/Axero/parts.rsi
+    state: torso_f
+
+- type: humanoidBaseSprite
+  id: MobAxeroLLeg
+  baseSprite:
+    sprite: Mobs/Species/Axero/parts.rsi
+    state: l_leg
+
+- type: humanoidBaseSprite
+  id: MobAxeroLHand
+  baseSprite:
+    sprite: Mobs/Species/Axero/parts.rsi
+    state: l_hand
+
+- type: humanoidBaseSprite
+  id: MobAxeroLArm
+  baseSprite:
+    sprite: Mobs/Species/Axero/parts.rsi
+    state: l_arm
+
+- type: humanoidBaseSprite
+  id: MobAxeroLFoot
+  baseSprite:
+    sprite: Mobs/Species/Axero/parts.rsi
+    state: l_foot
+
+- type: humanoidBaseSprite
+  id: MobAxeroRLeg
+  baseSprite:
+    sprite: Mobs/Species/Axero/parts.rsi
+    state: r_leg
+
+- type: humanoidBaseSprite
+  id: MobAxeroRHand
+  baseSprite:
+    sprite: Mobs/Species/Axero/parts.rsi
+    state: r_hand
+
+- type: humanoidBaseSprite
+  id: MobAxeroRArm
+  baseSprite:
+    sprite: Mobs/Species/Axero/parts.rsi
+    state: r_arm
+
+- type: humanoidBaseSprite
+  id: MobAxeroRFoot
+  baseSprite:
+    sprite: Mobs/Species/Axero/parts.rsi
+    state: r_foot

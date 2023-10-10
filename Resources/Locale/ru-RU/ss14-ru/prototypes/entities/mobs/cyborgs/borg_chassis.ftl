@@ -1,12 +1,12 @@
 ent-BorgChassisGeneric = { ent-BaseBorgChassisNT }
     .desc = { ent-BaseBorgChassisNT.desc }
-ent-BorgChassisMining = киборг-шахтёр
+ent-BorgChassisMining = дрон-шахтёр
     .desc = { ent-BaseBorgChassisNT.desc }
-ent-BorgChassisEngineer = киборг-инженер
+ent-BorgChassisEngineer = дрон-инженер
     .desc = { ent-BaseBorgChassisNT.desc }
-ent-BorgChassisJanitor = киборг-уборщик
+ent-BorgChassisJanitor = дрон-уборщик
     .desc = { ent-BaseBorgChassisNT.desc }
-ent-BorgChassisMedical = киборг-доктор
+ent-BorgChassisMedical = дрон-доктор
     .desc = { ent-BaseBorgChassisNT.desc }
-ent-BorgChassisService = киборг-официант
+ent-BorgChassisService = лампа
     .desc = { ent-BaseBorgChassisNT.desc }

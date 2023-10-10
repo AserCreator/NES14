@@ -1,0 +1,17 @@
+- type: marking
+  id: TarrantokTailSmooth
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Tarrantok]
+  sprites:
+  - sprite: Mobs/Customization/tarrantok_parts.rsi
+    state: tail_smooth
+
+- type: marking
+  id: TarrantokTailSmoothSmall
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Tarrantok]
+  sprites:
+  - sprite: Mobs/Customization/tarrantok_parts.rsi
+    state: tail_smooth_small

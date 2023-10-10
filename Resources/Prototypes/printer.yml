@@ -1,0 +1,103 @@
+- type: entity
+  parent: BaseMachinePowered
+  id: Printer
+  name: Printer
+  description: A device designed for printing documents. The color ink level indicator is zero.
+  components:
+  - type: ActivatableUI
+    key: enum.VendingMachineUiKey.Key
+  - type: ActivatableUIRequiresPower
+  - type: UserInterface
+    interfaces:
+    - key: enum.VendingMachineUiKey.Key
+      type: VendingMachineBoundUserInterface
+  - type: VendingMachine
+    ejectDelay: 4.5
+    soundVend:  /Audio/Machines/circuitprinter.ogg
+    pack: PrinterInventory
+  - type: WiresPanel
+  - type: Wires
+    BoardName: wires-board-name-vendingmachine
+    LayoutId: Vending
+  - type: Sprite
+    sprite: Structures/Machines/printer.rsi
+    layers:
+    - state: icon
+- type: entity
+  parent: BaseItem
+  id: PrinterRestock
+  name: A pack of paper for printing
+  description: Paper for office equipment.
+  components:
+  - type: Sprite
+    sprite: Objects/Specific/Service/printerrestock.rsi
+    layers:
+    - state: icon
+  - type: ItemCooldown
+  - type: Item
+    size: 30
+  - type: VendingMachineRestock
+    canRestock:
+    - PrinterInventory
+- type: cargoProduct
+  id: ServicePrinterRestock
+  icon:
+    sprite: printer\printerrestock.rsi
+    state: icon
+  product: PrinterRestock
+  cost: 600
+  category: Service
+  group: market
+- type: vendingMachineInventory
+  id: PrinterInventory
+  startingInventory:
+    Papercom1: 15
+    Papercom2: 15
+    Papercom3: 15
+    Papercom4: 15
+    Papercom5: 15
+    Papercom6: 15
+    Papercom7: 15
+    Papercom8: 15
+    Papercom9: 15
+    Papercom15: 15
+    Papercom11: 15
+    Papercom12: 15
+    Papercom13: 15
+    Papercom14: 15
+    Paperjur1: 15
+    Paperjur2: 15
+    Paperjur3: 15
+    Papersec1: 15
+    Papersec2: 15
+    Papersec3: 15
+    Papersec4: 15
+    Papersec5: 15
+    Papersec6: 15
+    Papersec7: 15
+    Papersec8: 15
+    Papermed1: 15
+    Papermed2: 15
+    Papermed3: 15
+    Papermed4: 15
+    Papermed5: 15
+    Papermed6: 15
+    Papermed7: 15
+    Papereng1: 15
+    Papereng2: 15
+    Papereng3: 15
+    Paperrnd1: 15
+    Paperrnd2: 15
+    Paperrnd3: 15
+    Papercar1: 15
+    Papercar2: 15
+    Papercar3: 15
+    Paperser1: 15
+    Paperser2: 15
+    Papercc1: 15
+    Papercc2: 15
+    Papercc3: 15
+    Papercc4: 15
+    Papercc5: 15
+    Papercc6: 15
+    Papercc7: 15

@@ -1,0 +1,125 @@
+# TODO: Add descriptions (many)
+# TODO BODY: Part damage
+- type: entity
+  id: PartTarrantok
+  parent: [BaseItem, BasePart]
+  name: "Tarrantok body part"
+  abstract: true
+  components:
+  - type: Extractable
+    juiceSolution:
+      reagents:
+      - ReagentId: Fat
+        Quantity: 3
+      - ReagentId: Blood
+        Quantity: 10
+
+- type: entity
+  id: TorsoTarrantok
+  name: "Tarrantok torso"
+  parent: [PartTarrantok, BaseTorso]
+  components:
+  - type: Sprite
+    sprite: Mobs/Species/Tarrantok/parts.rsi
+    state: "torso_m"
+  - type: Extractable
+    juiceSolution:
+      reagents:
+      - ReagentId: Fat
+        Quantity: 5
+      - ReagentId: Blood
+        Quantity: 10
+
+- type: entity
+  id: HeadTarrantok
+  name: "Tarrantok head"
+  parent: [PartTarrantok, BaseHead]
+  components:
+  - type: Sprite
+    sprite: Mobs/Species/Tarrantok/parts.rsi
+    state: "head_m"
+  - type: Extractable
+    juiceSolution:
+      reagents:
+      - ReagentId: Fat
+        Quantity: 5
+      - ReagentId: Blood
+        Quantity: 10
+
+- type: entity
+  id: LeftArmTarrantok
+  name: "left Tarrantok arm"
+  parent: [PartTarrantok, BaseLeftArm]
+  components:
+  - type: Sprite
+    sprite: Mobs/Species/Tarrantok/parts.rsi
+    state: "l_arm"
+
+- type: entity
+  id: RightArmTarrantok
+  name: "right Tarrantok arm"
+  parent: [PartTarrantok, BaseRightArm]
+  components:
+  - type: Sprite
+    sprite: Mobs/Species/Tarrantok/parts.rsi
+    state: "r_arm"
+
+- type: entity
+  id: LeftHandTarrantok
+  name: "left Tarrantok hand"
+  parent: [PartTarrantok, BaseLeftHand]
+  components:
+  - type: Sprite
+    sprite: Mobs/Species/Tarrantok/parts.rsi
+    state: "l_hand"
+
+- type: entity
+  id: RightHandTarrantok
+  name: "right Tarrantok hand"
+  parent: [PartTarrantok, BaseRightHand]
+  components:
+  - type: Sprite
+    sprite: Mobs/Species/Tarrantok/parts.rsi
+    state: "r_hand"
+
+- type: entity
+  id: LeftLegTarrantok
+  name: "left Tarrantok leg"
+  parent: [PartTarrantok, BaseLeftLeg]
+  components:
+  - type: Sprite
+    sprite: Mobs/Species/Tarrantok/parts.rsi
+    state: "l_leg"
+  - type: MovementBodyPart
+    walkSpeed : 3
+    sprintSpeed : 5
+
+- type: entity
+  id: RightLegTarrantok
+  name: "right Tarrantok leg"
+  parent: [PartTarrantok, BaseRightLeg]
+  components:
+  - type: Sprite
+    sprite: Mobs/Species/Tarrantok/parts.rsi
+    state: "r_leg"
+  - type: MovementBodyPart
+    walkSpeed : 3
+    sprintSpeed : 5
+
+- type: entity
+  id: LeftFootTarrantok
+  name: "left Tarrantok foot"
+  parent: [PartTarrantok, BaseLeftFoot]
+  components:
+  - type: Sprite
+    sprite: Mobs/Species/Tarrantok/parts.rsi
+    state: "l_foot"
+
+- type: entity
+  id: RightFootTarrantok
+  name: "right Tarrantok foot"
+  parent: [PartTarrantok, BaseRightFoot]
+  components:
+  - type: Sprite
+    sprite: Mobs/Species/Tarrantok/parts.rsi
+    state: "r_foot"

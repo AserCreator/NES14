@@ -1,8 +1,8 @@
 nuke-component-cant-anchor-floor = Крепёжным болтам не удаётся закрепиться в полу!
 nuke-component-announcement-sender = Ядерная боеголовка
-nuke-component-announcement-armed = Внимание! Механизм самоуничтожения станции был активирован по координатам { $position }. До детонации { $time } секунд.
+nuke-component-announcement-armed = Боеголовка Beta успешно взведена, удар будет нанесен по координатам { $position }. Расчетное время до детонации, { $time } секунд. Приступить к немедленной эвакуации.
 nuke-component-announcement-unarmed = Механизм самоуничтожение станции деактивирован! Хорошего дня!
-nuke-component-announcement-send-codes = Внимание! Запрошенные коды самоуничтожения были отправлены на факс капитана.
+nuke-component-announcement-send-codes = Внимание! Запрошенные коды самоуничтожения были отправлены на факс администратора станции.
 nuke-component-doafter-warning = Вы начинаете перебирать провода и кнопки, в попытке обезвредить ядерную бомбу. Это может занять некоторое время.
 nuke-user-interface-title = Ядерная боеголовка
 nuke-user-interface-arm-button = ВЗВЕСТИ
@@ -34,5 +34,5 @@ nuke-label-syndicate = SYN-{ $serial }
 # Codes
 
 nuke-codes-message = [color=red]СОВЕРШЕННО СЕКРЕТНО![/color]
-nuke-codes-list = Код { $name }: { $code }
+nuke-codes-list = Код { $name }: { $code }. Используйте это с умом.
 nuke-codes-fax-paper-name = коды ядерной аутентификации

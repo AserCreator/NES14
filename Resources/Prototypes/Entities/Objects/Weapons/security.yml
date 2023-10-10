@@ -65,6 +65,72 @@
     - Security
 
 - type: entity
+  name: melee tazer #NES
+  parent: BaseItem
+  id: MeleeTazer
+  description: A tazer for incapacitating people with. Actively harming with this is considered bad tone.
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Melee/melee_tazer.rsi
+    layers:
+    - state: stunbaton_off
+      map: [ "enum.ToggleVisuals.Layer" ]
+  - type: Stunbaton
+    energyPerUse: 100
+  - type: MeleeWeapon
+    damage:
+      types:
+        Blunt: 7
+    bluntStaminaDamageFactor: 2.0
+    angle: 60
+    animation: WeaponArcSlash
+  - type: StaminaDamageOnHit
+    damage: 40
+    sound: /Audio/Weapons/egloves.ogg
+  - type: StaminaDamageOnCollide
+    damage: 40
+    sound: /Audio/Weapons/egloves.ogg
+  - type: Battery
+    maxCharge: 600
+    startingCharge: 600
+  - type: ItemCooldown
+  - type: Item
+    heldPrefix: off
+    size: 10
+  - type: Clothing
+    sprite: Objects/Weapons/Melee/melee_tazer.rsi
+    quickEquip: false
+    slots:
+    - Belt
+  - type: DisarmMalus
+    malus: 0.225
+  - type: Appearance
+  - type: GenericVisualizer
+    visuals:
+     enum.ToggleVisuals.Toggled:
+        enum.ToggleVisuals.Layer:
+          True: {state: stunbaton_on}
+          False: {state: stunbaton_off}
+  - type: StaticPrice
+    price: 200
+  - type: Riggable
+  - type: SolutionContainerManager
+    solutions:
+      battery:
+        maxVol: 5
+  - type: InjectableSolution
+    solution: battery
+  - type: DrawableSolution
+    solution: battery
+  - type: Explosive
+    explosionType: Default
+    intensitySlope: 1.5
+    maxIntensity: 200
+  - type: GuideHelp
+    guides:
+    - Security
+
+- type: entity
   name: truncheon
   parent: BaseItem
   id: Truncheon

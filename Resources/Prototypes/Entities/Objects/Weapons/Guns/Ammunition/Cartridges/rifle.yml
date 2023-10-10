@@ -51,3 +51,13 @@
   components:
   - type: CartridgeAmmo
     proto: BulletRifleIncendiary
+
+#NES
+
+- type: entity
+  id: CartridgeCrossvecRifle
+  name: cartridge (.20 JHP)
+  parent: BaseCartridgeRifle
+  components:
+  - type: CartridgeAmmo
+    proto: BulletCrossvecRifle

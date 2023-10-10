@@ -1,0 +1,17 @@
+- type: marking
+  id: AxeroTailSmooth
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Axero]
+  sprites:
+  - sprite: Mobs/Customization/axero_parts.rsi
+    state: tail_smooth
+
+- type: marking
+  id: AxeroTailSmoothTwo
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Axero]
+  sprites:
+  - sprite: Mobs/Customization/axero_parts.rsi
+    state: tail_smooth_behind

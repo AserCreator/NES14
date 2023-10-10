@@ -1,0 +1,141 @@
+- type: species
+  id: Tarrantok
+  name: species-name-tarrantok
+  roundStart: true
+  prototype: MobTarrantok
+  sprites: MobTarrantokSprites
+  defaultSkinTone: "#dbcdc0"
+  markingLimits: MobTarrantokMarkingLimits
+  dollPrototype: MobTarrantokDummy
+  skinColoration: Hues
+  maleFirstNames: names_reptilian_male
+  femaleFirstNames: names_reptilian_female
+  naming: FirstDashFirst
+
+- type: speciesBaseSprites
+  id: MobTarrantokSprites
+  sprites:
+    Head: MobTarrantokHead
+    Snout: MobHumanoidAnyMarking
+    Chest: MobTarrantokTorso
+    HeadTop: MobHumanoidAnyMarking
+    HeadSide: MobHumanoidAnyMarking
+    Tail: MobHumanoidAnyMarking
+    Eyes: MobHumanoidEyes
+    LArm: MobTarrantokLArm
+    RArm: MobTarrantokRArm
+    LHand: MobTarrantokLHand
+    RHand: MobTarrantokRHand
+    LLeg: MobTarrantokLLeg
+    RLeg: MobTarrantokRLeg
+    LFoot: MobTarrantokLFoot
+    RFoot: MobTarrantokRFoot
+
+- type: markingPoints
+  id: MobTarrantokMarkingLimits
+  onlyWhitelisted: true
+  points:
+    Hair:
+      points: 1
+      required: true
+    FacialHair:
+      points: 0
+      required: false
+    Tail:
+      points: 1
+      required: true
+      defaultMarkings: [ TarrantokTailSmooth ]
+    Snout:
+      points: 0
+      required: false
+      defaultMarkings: [ TarrantokSnoutRound ]
+    HeadTop:
+      points: 0
+      required: false
+    HeadSide:
+      points: 0
+      required: false
+
+- type: humanoidBaseSprite
+  id: MobTarrantokHead
+  baseSprite:
+    sprite: Mobs/Species/Tarrantok/parts.rsi
+    state: head_m
+
+- type: humanoidBaseSprite
+  id: MobTarrantokHeadMale
+  baseSprite:
+    sprite: Mobs/Species/Tarrantok/parts.rsi
+    state: head_m
+
+- type: humanoidBaseSprite
+  id: MobTarrantokHeadFemale
+  baseSprite:
+    sprite: Mobs/Species/Tarrantok/parts.rsi
+    state: head_f
+
+- type: humanoidBaseSprite
+  id: MobTarrantokTorso
+  baseSprite:
+    sprite: Mobs/Species/Tarrantok/parts.rsi
+    state: torso_m
+
+- type: humanoidBaseSprite
+  id: MobTarrantokTorsoMale
+  baseSprite:
+    sprite: Mobs/Species/Tarrantok/parts.rsi
+    state: torso_m
+
+- type: humanoidBaseSprite
+  id: MobTarrantokTorsoFemale
+  baseSprite:
+    sprite: Mobs/Species/Tarrantok/parts.rsi
+    state: torso_f
+
+- type: humanoidBaseSprite
+  id: MobTarrantokLLeg
+  baseSprite:
+    sprite: Mobs/Species/Tarrantok/parts.rsi
+    state: l_leg
+
+- type: humanoidBaseSprite
+  id: MobTarrantokLHand
+  baseSprite:
+    sprite: Mobs/Species/Tarrantok/parts.rsi
+    state: l_hand
+
+- type: humanoidBaseSprite
+  id: MobTarrantokLArm
+  baseSprite:
+    sprite: Mobs/Species/Tarrantok/parts.rsi
+    state: l_arm
+
+- type: humanoidBaseSprite
+  id: MobTarrantokLFoot
+  baseSprite:
+    sprite: Mobs/Species/Tarrantok/parts.rsi
+    state: l_foot
+
+- type: humanoidBaseSprite
+  id: MobTarrantokRLeg
+  baseSprite:
+    sprite: Mobs/Species/Tarrantok/parts.rsi
+    state: r_leg
+
+- type: humanoidBaseSprite
+  id: MobTarrantokRHand
+  baseSprite:
+    sprite: Mobs/Species/Tarrantok/parts.rsi
+    state: r_hand
+
+- type: humanoidBaseSprite
+  id: MobTarrantokRArm
+  baseSprite:
+    sprite: Mobs/Species/Tarrantok/parts.rsi
+    state: r_arm
+
+- type: humanoidBaseSprite
+  id: MobTarrantokRFoot
+  baseSprite:
+    sprite: Mobs/Species/Tarrantok/parts.rsi
+    state: r_foot

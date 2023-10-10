@@ -41,3 +41,16 @@
     damage:
       groups:
         Burn: 15
+
+#NES
+
+- type: entity
+  id: BulletCrossvecRifle
+  name: bullet (0.20 JHP)
+  parent: BaseBullet
+  noSpawn: true
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 8

@@ -1,0 +1,409 @@
+#Документы Командования
+#Заявление о назначении на ВрИО
+- type: entity
+  name: Application for appointment to acting
+  parent: Paper
+  id: Papercom1
+  components:
+    - type: Paper
+      content: book-text-papercom1
+#Отчёт о работе отдела
+- type: entity
+  name: Report on the work of the department
+  parent: Paper
+  id: Papercom2
+  components:
+    - type: Paper
+      content: book-text-papercom2
+#Отчёт о работе сотрудника
+- type: entity
+  name: Employee Performance Report
+  parent: Paper
+  id: Papercom3
+  components:
+    - type: Paper
+      content: book-text-papercom3
+#Отчёт о Собрании Глав
+- type: entity
+  name: Report on the Meeting of Heads of Departments
+  parent: Paper
+  id: Papercom4
+  components:
+    - type: Paper
+      content: book-text-papercom4
+#Заявление о трудоустройстве
+- type: entity
+  name: Application for employment
+  parent: Paper
+  id: Papercom5
+  components:
+    - type: Paper
+      content: book-text-papercom5
+#Заявление об увольнении
+- type: entity
+  name: Resignation letter
+  parent: Paper
+  id: Papercom6
+  components:
+    - type: Paper
+      content: book-text-papercom6
+#Заявление на получение доступа
+- type: entity
+  name: Application for access
+  parent: Paper
+  id: Papercom7
+  components:
+    - type: Paper
+      content: book-text-papercom7
+#Приказ об увольнении
+- type: entity
+  name: Dismissal order
+  parent: Paper
+  id: Papercom8
+  components:
+    - type: Paper
+      content: book-text-papercom8
+#Приказ о лишении доступа
+- type: entity
+  name: Order to deprive access
+  parent: Paper
+  id: Papercom9
+  components:
+    - type: Paper
+      content: book-text-papercom9
+#Приказ о поощрении
+- type: entity
+  name: Order of encouragement
+  parent: Paper
+  id: Papercom10
+  components:
+    - type: Paper
+      content: book-text-papercom10
+#Грамота
+- type: entity
+  name: Diploma
+  parent: Paper
+  id: Papercom11
+  components:
+    - type: Paper
+      content: book-text-papercom11
+#Свидетельство о повышении квалификации
+- type: entity
+  name: Certificate of professional development
+  parent: Paper
+  id: Papercom12
+  components:
+    - type: Paper
+      content: book-text-papercom12
+#Заявление на получение снаряжения
+- type: entity
+  name: Application for equipment
+  parent: Paper
+  id: Papercom13
+  components:
+    - type: Paper
+      content: book-text-papercom13
+#Разрешение на использование снаряжения
+- type: entity
+  name: Permission to use equipment
+  parent: Paper
+  id: Papercom14
+  components:
+    - type: Paper
+      content: book-text-papercom14
+#Документы Юридического департамента
+#Жалоба на нарушение трудового порядка
+- type: entity
+  name: Complaint about violation of the labor order
+  parent: Paper
+  id: Paperjur1
+  components:
+    - type: Paper
+      content: book-text-paperjur1
+#Отчёт Агента Внутренних Дел
+- type: entity
+  name: Internal Affairs Agent's Report
+  parent: Paper
+  id: Paperjur2
+  components:
+    - type: Paper
+      content: book-text-paperjur2
+#Запрос предоставления документов
+- type: entity
+  name: Request for documents
+  parent: Paper
+  id: Paperjur3
+  components:
+    - type: Paper
+      content: book-text-paperjur3
+#Документы Службы Безопасности
+#Жалоба на правонарушение
+- type: entity
+  name: Complaint of an offense
+  parent: Paper
+  id: Papersec1
+  components:
+    - type: Paper
+      content: book-text-papersec1
+#Приговор
+- type: entity
+  name: Sentence
+  parent: Paper
+  id: Papersec2
+  components:
+    - type: Paper
+      content: book-text-papersec2
+#Свидетельство о правонарушении
+- type: entity
+  name: Certificate of an offense
+  parent: Paper
+  id: Papersec3
+  components:
+    - type: Paper
+      content: book-text-papersec3
+#Обвинительное заключение
+- type: entity
+  name: Indictment
+  parent: Paper
+  id: Papersec4
+  components:
+    - type: Paper
+      content: book-text-papersec4
+#Разрешение на обыск
+- type: entity
+  name: Search permission
+  parent: Paper
+  id: Papersec5
+  components:
+    - type: Paper
+      content: book-text-papersec5
+#Приказ об УДО заключенного
+- type: entity
+  name: Prisoner's parole order
+  parent: Paper
+  id: Papersec6
+  components:
+    - type: Paper
+      content: book-text-papersec6
+#Распоряжение о медицинском вмешательстве
+- type: entity
+  name: Medical Intervention Order
+  parent: Paper
+  id: Papersec7
+  components:
+    - type: Paper
+      content: book-text-papersec7
+#Разрешение на ношение оружия
+- type: entity
+  name: Permission to carry weapons
+  parent: Paper
+  id: Papersec8
+  components:
+    - type: Paper
+      content: book-text-papersec8
+#Документы Медицинского отдела
+#Заказ на производство продукта
+- type: entity
+  name: Product production order
+  parent: Paper
+  id: Papermed1
+  components:
+    - type: Paper
+      content: book-text-papermed1
+#Отчёт об изучении объекта
+- type: entity
+  name: Object Study Report
+  parent: Paper
+  id: Papermed2
+  components:
+    - type: Paper
+      content: book-text-papermed2
+#Разрешение на рецептурный препарат
+- type: entity
+  name: Authorization for a prescription drug
+  parent: Paper
+  id: Papermed3
+  components:
+    - type: Paper
+      content: book-text-papermed3
+#Заключение о состоянии здоровья
+- type: entity
+  name: Conclusion on the state of health
+  parent: Paper
+  id: Papermed4
+  components:
+    - type: Paper
+      content: book-text-papermed4
+#Запрос на проведение эвтаназии
+- type: entity
+  name: Request for euthanasia
+  parent: Paper
+  id: Papermed5
+  components:
+    - type: Paper
+      content: book-text-papermed5
+#Свидетельство о смерти
+- type: entity
+  name: Death certificate
+  parent: Paper
+  id: Papermed6
+  components:
+    - type: Paper
+      content: book-text-papermed6
+#Разрешение на утилизацию тела
+- type: entity
+  name: Death certificate
+  parent: Paper
+  id: Papermed7
+  components:
+    - type: Paper
+      content: book-text-papermed7
+#Документы Инженерного отдела
+#Разрешение на строительство
+- type: entity
+  name: Construction permit
+  parent: Paper
+  id: Papereng1
+  components:
+    - type: Paper
+      content: book-text-papereng1
+#Отчёт о техническом состоянии
+- type: entity
+  name: Technical condition report
+  parent: Paper
+  id: Papereng2
+  components:
+    - type: Paper
+      content: book-text-papereng2
+#Запрос на проведение строительных работ
+- type: entity
+  name: Request for construction work
+  parent: Paper
+  id: Papereng3
+  components:
+    - type: Paper
+      content: book-text-papereng3
+#Документы Научно-Исследовательского отдела
+#Отчёт об эксперименте
+- type: entity
+  name: Experiment Report
+  parent: Paper
+  id: Paperrnd1
+  components:
+    - type: Paper
+      content: book-text-paperrnd1
+#Приказ о признании разумности существа
+- type: entity
+  name: An order to recognize the reasonableness of a being
+  parent: Paper
+  id: Paperrnd2
+  components:
+    - type: Paper
+      content: book-text-paperrnd2
+#Запрос на проведение модернизации
+- type: entity
+  name: Request for modernization
+  parent: Paper
+  id: Paperrnd3
+  components:
+    - type: Paper
+      content: book-text-paperrnd3
+#Документы отдела Снабжения
+#Отчёт об утилизации
+- type: entity
+  name: Disposal Report
+  parent: Paper
+  id: Papercar1
+  components:
+    - type: Paper
+      content: book-text-papercar1
+#Заказ на закупку ресурсов, снаряжения
+- type: entity
+  name: Order for the purchase of resources, equipment
+  parent: Paper
+  id: Papercar2
+  components:
+    - type: Paper
+      content: book-text-papercar2
+#Заказ на закупку вооружения
+- type: entity
+  name: An order for the purchase of weapons
+  parent: Paper
+  id: Papercar3
+  components:
+    - type: Paper
+      content: book-text-papercar3
+#Документы Сервисного отдела
+#Свидетельство о заключении брака
+- type: entity
+  name: Marriage certificate
+  parent: Paper
+  id: Paperser1
+  components:
+    - type: Paper
+      content: book-text-paperser1
+#Свидетельство о расторжении брака
+- type: entity
+  name: Certificate of dissolution of marriage
+  parent: Paper
+  id: Paperser2
+  components:
+    - type: Paper
+      content: book-text-paperser2
+#Документы связи с Центральным Командованием
+#Запрос эвакуационного шаттла
+- type: entity
+  name: Evacuation Shuttle Request
+  parent: Paper
+  id: Papercc1
+  components:
+    - type: Paper
+      content: book-text-papercc1
+#Запрос регистрации шаттла
+- type: entity
+  name: Shuttle Registration Request
+  parent: Paper
+  id: Papercc2
+  components:
+    - type: Paper
+      content: book-text-papercc2
+#Заказ специального снаряжения
+- type: entity
+  name: Ordering special equipment
+  parent: Paper
+  id: Papercc3
+  components:
+    - type: Paper
+      content: book-text-papercc3
+#Отчёт о ситуации
+- type: entity
+  name: Situation Report
+  parent: Paper
+  id: Papercc4
+  components:
+    - type: Paper
+      content: book-text-papercc4
+#Запрос на вызов членов ЦК, ДСО
+- type: entity
+  name: Request to call members of the Central Committee, DSO
+  parent: Paper
+  id: Papercc5
+  components:
+    - type: Paper
+      content: book-text-papercc5
+#Запрос на изменение заработной платы
+- type: entity
+  name: Request for salary change
+  parent: Paper
+  id: Papercc6
+  components:
+    - type: Paper
+      content: book-text-papercc6
+#Запрос внеперечневого трудоустройства
+- type: entity
+  name: Request for out-of-hours employment
+  parent: Paper
+  id: Papercc7
+  components:
+    - type: Paper
+      content: book-text-papercc7

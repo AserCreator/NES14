@@ -1,0 +1,61 @@
+- type: entity
+  name: Urisst' Tarrantok
+  parent: BaseMobSpeciesOrganic
+  id: BaseMobTarrantok
+  abstract: true
+  components:
+  - type: HumanoidAppearance
+    species: Tarrantok
+  - type: Inventory
+    speciesId: tarrantok
+  - type: Hunger
+    starvationDamage:
+      types:
+        Cold: 1
+  - type: Thirst
+  - type: Icon
+    sprite: Mobs/Species/Tarrantok/parts.rsi
+    state: full
+  - type: Body
+    prototype: Tarrantok
+    requiredLegs: 2
+  - type: Butcherable
+    butcheringType: Spike
+    spawned:
+    - id: FoodMeatHuman
+      amount: 5
+  - type: Damageable
+    damageContainer: Biological
+    damageModifierSet: Scale
+  - type: MeleeWeapon
+    hidden: true
+    soundHit:
+      path: /Audio/Weapons/pierce.ogg
+    angle: 30
+    animation: WeaponArcPunch
+    damage:
+      types:
+        # Actually does 5 damage due to +25% damage bonus on all single target melee attacks
+        Piercing: 1
+  - type: Temperature
+    heatDamageThreshold: 400
+    coldDamageThreshold: 285
+    currentTemperature: 310.15
+    specificHeat: 46
+    coldDamage:
+      types:
+        Cold : 0.2 #per second, scales with temperature & other constants
+    heatDamage:
+      types:
+        Heat : 0.1 #per second, scales with temperature & other constants
+  - type: MovementSpeedModifier
+    baseWalkSpeed : 3
+    baseSprintSpeed : 5
+  - type: Perishable
+
+- type: entity
+  parent: BaseSpeciesDummy
+  id: MobTarrantokDummy
+  noSpawn: true
+
+#Weh

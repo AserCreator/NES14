@@ -14,6 +14,12 @@
             "name": "plushie_moth"
         },
         {
+            "name": "ArseniaPlush"
+        },
+        {
+            "name": "VernioMrsh"
+        },
+        {
             "name": "plushie_rouny",
             "directions": 4
         },
@@ -61,6 +67,15 @@
         },
         {
             "name": "plushie_xeno"
+        },
+        {
+            "name": "plushie_aserovich"
+        },
+        {
+            "name": "plushie_axero"
+        },
+        {
+            "name": "plushie_avi"
         },
         {
             "name": "carpplush-inhand-left",
