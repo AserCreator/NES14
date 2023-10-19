@@ -9,3 +9,5 @@ species-name-arachnid = Арахнид
 species-name-moth = Ниан
 species-name-axero = Ахеро
 species-name-tarrantok = Тарранток
+species-name-avian = Авиан
+species-name-avian-imperial = Имперец

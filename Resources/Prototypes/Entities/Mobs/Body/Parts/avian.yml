@@ -1,0 +1,125 @@
+# TODO: Add descriptions (many)
+# TODO BODY: Part damage
+- type: entity
+  id: PartAvian
+  parent: [BaseItem, BasePart]
+  name: "Avian body part"
+  abstract: true
+  components:
+  - type: Extractable
+    juiceSolution:
+      reagents:
+      - ReagentId: Fat
+        Quantity: 3
+      - ReagentId: Blood
+        Quantity: 10
+
+- type: entity
+  id: TorsoAvian
+  name: "Avian torso"
+  parent: [PartAvian, BaseTorso]
+  components:
+  - type: Sprite
+    sprite: Mobs/Species/Avian/parts.rsi
+    state: "torso_m"
+  - type: Extractable
+    juiceSolution:
+      reagents:
+      - ReagentId: Fat
+        Quantity: 5
+      - ReagentId: Blood
+        Quantity: 10
+
+- type: entity
+  id: HeadAvian
+  name: "Avian head"
+  parent: [PartAvian, BaseHead]
+  components:
+  - type: Sprite
+    sprite: Mobs/Species/Avian/parts.rsi
+    state: "head_m"
+  - type: Extractable
+    juiceSolution:
+      reagents:
+      - ReagentId: Fat
+        Quantity: 5
+      - ReagentId: Blood
+        Quantity: 10
+
+- type: entity
+  id: LeftArmAvian
+  name: "left Avian arm"
+  parent: [PartAvian, BaseLeftArm]
+  components:
+  - type: Sprite
+    sprite: Mobs/Species/Avian/parts.rsi
+    state: "l_arm"
+
+- type: entity
+  id: RightArmAvian
+  name: "right Avian arm"
+  parent: [PartAvian, BaseRightArm]
+  components:
+  - type: Sprite
+    sprite: Mobs/Species/Avian/parts.rsi
+    state: "r_arm"
+
+- type: entity
+  id: LeftHandAvian
+  name: "left Avian hand"
+  parent: [PartAvian, BaseLeftHand]
+  components:
+  - type: Sprite
+    sprite: Mobs/Species/Avian/parts.rsi
+    state: "l_hand"
+
+- type: entity
+  id: RightHandAvian
+  name: "right Avian hand"
+  parent: [PartAvian, BaseRightHand]
+  components:
+  - type: Sprite
+    sprite: Mobs/Species/Avian/parts.rsi
+    state: "r_hand"
+
+- type: entity
+  id: LeftLegAvian
+  name: "left Avian leg"
+  parent: [PartAvian, BaseLeftLeg]
+  components:
+  - type: Sprite
+    sprite: Mobs/Species/Avian/parts.rsi
+    state: "l_leg"
+  - type: MovementBodyPart
+    walkSpeed : 3
+    sprintSpeed : 5
+
+- type: entity
+  id: RightLegAvian
+  name: "right Avian leg"
+  parent: [PartAvian, BaseRightLeg]
+  components:
+  - type: Sprite
+    sprite: Mobs/Species/Avian/parts.rsi
+    state: "r_leg"
+  - type: MovementBodyPart
+    walkSpeed : 3
+    sprintSpeed : 5
+
+- type: entity
+  id: LeftFootAvian
+  name: "left Avian foot"
+  parent: [PartAvian, BaseLeftFoot]
+  components:
+  - type: Sprite
+    sprite: Mobs/Species/Avian/parts.rsi
+    state: "l_foot"
+
+- type: entity
+  id: RightFootAvian
+  name: "right Avian foot"
+  parent: [PartAvian, BaseRightFoot]
+  components:
+  - type: Sprite
+    sprite: Mobs/Species/Avian/parts.rsi
+    state: "r_foot"

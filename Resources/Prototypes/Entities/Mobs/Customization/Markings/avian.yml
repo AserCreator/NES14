@@ -1,0 +1,17 @@
+- type: marking
+  id: AvianTailSmooth
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Avian]
+  sprites:
+  - sprite: Mobs/Customization/axero_parts.rsi
+    state: tail_smooth
+
+- type: marking
+  id: AvianKluvBluat
+  bodyPart: Snout
+  markingCategory: Snout
+  speciesRestriction: [Avian]
+  sprites:
+  - sprite: Mobs/Customization/avian_parts.rsi
+    state: AvianKluv

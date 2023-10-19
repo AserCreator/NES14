@@ -1,6 +1,6 @@
 ent-BasePDA = КПК
     .desc = Ассистент по персональным данным.
-ent-PassengerPDA = КПК пассажира
+ent-PassengerPDA = КПК туриста
     .desc = Почему он не серый?
 ent-TechnicalAssistantPDA = КПК ассистента-техника
     .desc = Почему он не жёлтый?

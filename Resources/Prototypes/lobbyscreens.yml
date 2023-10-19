@@ -1,19 +1,23 @@
 ﻿- type: lobbyBackground
-  id: Robotics
-  background: /Textures/LobbyScreens/robotics.png
+  id: JoolLobby
+  background: /Textures/LobbyScreens/NES/NES_jool.png
 
 - type: lobbyBackground
-  id: Supermatter
-  background: /Textures/LobbyScreens/supermatter.png
+  id: MeteorLobby
+  background: /Textures/LobbyScreens/NES/NES_meteor.png
 
 - type: lobbyBackground
-  id: Warden
-  background: /Textures/LobbyScreens/warden.png
+  id: PurpleLobby
+  background: /Textures/LobbyScreens/NES/NES_purple.png
 
 - type: lobbyBackground
-  id: Pharmacy
-  background: /Textures/LobbyScreens/pharmacy.png
+  id: RuinaLobby
+  background: /Textures/LobbyScreens/NES/NES_ruina.png
 
 - type: lobbyBackground
-  id: SSXIV
-  background: /Textures/LobbyScreens/ssxiv.png
+  id: SaturnLobby
+  background: /Textures/LobbyScreens/NES/NES_saturn.png
+
+- type: lobbyBackground
+  id: StarLobby
+  background: /Textures/LobbyScreens/NES/NES_star.png

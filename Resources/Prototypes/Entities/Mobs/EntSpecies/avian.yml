@@ -1,0 +1,64 @@
+- type: entity
+  name: Urisst' Avian
+  parent: BaseMobSpeciesOrganic
+  id: BaseMobAvian
+  abstract: true
+  components:
+  - type: HumanoidAppearance
+    species: Avian
+  - type: Inventory
+    speciesId: Avian
+  - type: Hunger
+    starvationDamage:
+      types:
+        Cold: 1
+  - type: Thirst
+  - type: Icon
+    sprite: Mobs/Species/Avian/parts.rsi
+    state: full
+  - type: Body
+    prototype: Avian
+    requiredLegs: 2
+  - type: Butcherable
+    butcheringType: Spike
+    spawned:
+    - id: FoodMeatHuman
+      amount: 5
+  - type: Damageable
+    damageContainer: Biological
+    damageModifierSet: Scale
+  - type: MeleeWeapon
+    hidden: true
+    soundHit:
+      path: /Audio/Weapons/pierce.ogg
+    angle: 30
+    animation: WeaponArcPunch
+    damage:
+      types:
+        # Actually does 5 damage due to +25% damage bonus on all single target melee attacks
+        Piercing: 1
+  - type: Temperature
+    heatDamageThreshold: 450
+    coldDamageThreshold: 260
+    currentTemperature: 310.15
+    specificHeat: 46
+    coldDamage:
+      types:
+        Cold : 0.001 #per second, scales with temperature & other constants
+    heatDamage:
+      types:
+        Heat : 0.001 #per second, scales with temperature & other constants
+  - type: MovementSpeedModifier
+    baseWalkSpeed : 2.5
+    baseSprintSpeed : 4.5
+    weightlessAcceleration: 1.5 # Move around more easily in space.
+    weightlessFriction: 1
+    weightlessModifier: 1
+  - type: Perishable
+
+- type: entity
+  parent: BaseSpeciesDummy
+  id: MobAvianDummy
+  noSpawn: true
+
+#Weh
