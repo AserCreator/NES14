@@ -17,11 +17,12 @@
 - type: startingGear
   id: BartenderGear
   equipment:
-    head: ClothingHeadHatTophat
+    head: ClothingHeadHatCorpsoft
     jumpsuit: ClothingUniformJumpsuitBartender
-    outerClothing: ClothingOuterVest
+    outerClothing: ClothingOuterApronBar
     back: ClothingBackpackFilled
     shoes: ClothingShoesColorBlack
+    pocket2: DrinkShaker
     id: BartenderPDA
     ears: ClothingHeadsetService
   innerclothingskirt: ClothingUniformJumpskirtBartender

@@ -1,5 +1,5 @@
 job-supervisors-centcom = представителю Центкома
-job-supervisors-captain = админитсратору
+job-supervisors-captain = администратору
 job-supervisors-hop = главе персонала
 job-supervisors-hos = главе службы безопасности
 job-supervisors-ce = старшему инженеру

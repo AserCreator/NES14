@@ -1059,3 +1059,6 @@
 
 - type: Tag
   id: MindShield
+
+- type: Tag
+  id: WeaponAntiqueLaser

@@ -563,3 +563,29 @@
     whitelist:
       tags:
       - WizardWand
+
+#NES
+
+- type: entity
+  parent: ClothingBeltStorageBase
+  id: ClothingBeltLaser
+  name: laser sheath
+  description: An ornate sheath designed to hold an officer's blade.
+  components:
+  - type: Sprite
+    sprite: Clothing/Belt/coreba_blastera.rsi
+    state: sheath
+  - type: Clothing
+    sprite: Clothing/Belt/coreba_blastera.rsi
+  - type: Storage
+    capacity: 10
+    whitelist:
+      tags:
+        - WeaponAntiqueLaser
+  - type: ItemMapper
+    mapLayers:
+      sheath-sabre:
+        whitelist:
+          tags:
+          - WeaponAntiqueLaser
+  - type: Appearance

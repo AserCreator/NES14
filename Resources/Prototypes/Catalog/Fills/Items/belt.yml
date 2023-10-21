@@ -119,6 +119,15 @@
       - id: CaptainSabre
 
 - type: entity
+  id: ClothingBeltLaserFilled
+  parent: ClothingBeltLaser
+  suffix: Filled
+  components:
+  - type: StorageFill
+    contents:
+      - id: WeaponAntiqueLaser
+
+- type: entity
   id: ClothingBeltMilitaryWebbingGrenadeFilled
   parent: ClothingBeltMilitaryWebbing
   name: grenadier chest rig
