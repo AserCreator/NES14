@@ -66,7 +66,7 @@ admin-notes-watchlist = Наблюдение над { $player }: { $message }
 admin-notes-new-message = Вы получили админ сообщение от { $admin }: { $message }
 # Admin remarks
 admin-remarks-command-description = Открыть страницу админ замечаний
-admin-remarks-command-error = Админ замечания были отключены
-admin-remarks-title = Админ замечания
+admin-remarks-command-error = админ замечания были отключены
+admin-remarks-title = админ замечания
 # Misc
 system-user = [Система]

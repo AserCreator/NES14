@@ -27213,7 +27213,7 @@ entities:
     - pos: 82.5,54.5
       parent: 1
       type: Transform
-    - name: Офис Админитсратора
+    - name: Офис админитсратора
       type: FaxMachine
 - proto: filingCabinetDrawerRandom
   entities:

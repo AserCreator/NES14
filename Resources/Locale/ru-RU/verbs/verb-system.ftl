@@ -6,7 +6,7 @@ verb-self-target-pronoun = Вы
 
 # verb categories & common verbs. These appear across multiple systems, so they may as well go here.
 
-verb-categories-admin = Админ
+verb-categories-admin = админ
 verb-categories-debug = Дебаг
 verb-categories-examine = Осмотреть
 verb-categories-eject = Извлечь

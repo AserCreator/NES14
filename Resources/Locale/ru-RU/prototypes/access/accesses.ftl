@@ -1,5 +1,5 @@
 id-card-access-level-command = Командование
-id-card-access-level-captain = Админитсратор
+id-card-access-level-captain = админитсратор
 id-card-access-level-head-of-personnel = Глава персонала
 id-card-access-level-head-of-security = Глава службы безопасности
 id-card-access-level-security = Служба безопасности
