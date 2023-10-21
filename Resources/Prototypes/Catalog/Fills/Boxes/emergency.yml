@@ -10,7 +10,7 @@
       - id: EmergencyOxygenTankFilled
       - id: SpaceMedipen
       - id: EmergencyMedipen
-      - id: Flare
+      - id: DrinkWaterBottleFull
       - id: FoodTinMRE
   - type: Sprite
     layers:
@@ -29,7 +29,7 @@
       - id: ExtendedEmergencyOxygenTankFilled
       - id: SpaceMedipen
       - id: EmergencyMedipen
-      - id: Flare
+      - id: DrinkWaterBottleFull
       - id: FoodTinMRE
   - type: Sprite
     layers:
@@ -49,7 +49,7 @@
       - id: EmergencyOxygenTankFilled
       - id: SpaceMedipen
       - id: EmergencyMedipen
-      - id: Flare
+      - id: DrinkWaterBottleFull
       - id: FoodTinMRE
   - type: Sprite
     layers:
@@ -89,7 +89,7 @@
       - id: EmergencyOxygenTankFilled
       - id: SpaceMedipen
       - id: EmergencyMedipen
-      - id: Flare
+      - id: DrinkWaterBottleFull
       - id: FoodTinMRE
   - type: Sprite
     layers:
@@ -114,7 +114,7 @@
       - id: EmergencyOxygenTankFilled
       - id: SpaceMedipen
       - id: EmergencyMedipen
-      - id: Flare
+      - id: DrinkWaterBottleFull
       - id: FoodTinMRE
   - type: Tag
     tags:
@@ -132,7 +132,7 @@
       - id: ExtendedEmergencyOxygenTankFilled
       - id: SpaceMedipen
       - id: EmergencyMedipen
-      - id: Flare
+      - id: DrinkWaterBottleFull
       - id: FoodTinMRE
   - type: Sprite
     layers:

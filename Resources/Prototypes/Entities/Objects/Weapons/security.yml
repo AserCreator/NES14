@@ -91,8 +91,8 @@
     damage: 40
     sound: /Audio/Weapons/egloves.ogg
   - type: Battery
-    maxCharge: 600
-    startingCharge: 600
+    maxCharge: 300
+    startingCharge: 300
   - type: ItemCooldown
   - type: Item
     heldPrefix: off

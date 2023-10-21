@@ -1,14 +1,14 @@
 - type: stationGoal
-  id: StationGoalShuttle
-  text: station-goal-shuttle
+  id: StationGoalAvanpost
+  text: station-goal-avanpost
 
 - type: stationGoal
-  id: StationGoalSingularity
-  text: station-goal-singularity
+  id: StationGoalShuttles
+  text: station-goal-shuttles
 
 - type: stationGoal
-  id: StationGoalSolarPanels
-  text: station-goal-solar-panels
+  id: StationGoalSolarDefaul
+  text: station-goal-defaul
 
 - type: stationGoal
   id: StationGoalArtifacts
@@ -19,5 +19,5 @@
   text: station-goal-bank
 
 - type: stationGoal
-  id: StationGoalZoo
-  text: station-goal-zoo
+  id: StationGoalInteractive
+  text: station-goal-interactive
