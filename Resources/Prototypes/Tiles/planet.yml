@@ -51,6 +51,27 @@
   weather: true
   indestructible: true
 
+#Moon
+- type: tile
+  id: FloorLowMoon
+  name: tiles-low-moon-floor
+  sprite: /Textures/Tiles/Planet/Desert/low_moon.png
+  variants: 6
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  isSubfloor: true
+  canCrowbar: false
+  footstepSounds:
+    collection: FootstepAsteroid
+  heatCapacity: 10000
+  weather: true
+  indestructible: true
+
 # Grass
 - type: tile
   id: FloorPlanetGrass

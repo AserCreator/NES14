@@ -15,26 +15,26 @@ public sealed partial class MeteorSwarmRuleComponent : Component
     public int WaveCounter;
 
     [DataField("minimumWaves")]
-    public int MinimumWaves = 3;
+    public int MinimumWaves = 7;
 
     [DataField("maximumWaves")]
-    public int MaximumWaves = 8;
+    public int MaximumWaves = 20;
 
     [DataField("minimumCooldown")]
-    public float MinimumCooldown = 10f;
+    public float MinimumCooldown = 1f;
 
     [DataField("maximumCooldown")]
-    public float MaximumCooldown = 60f;
+    public float MaximumCooldown = 10f;
 
     [DataField("meteorsPerWave")]
-    public int MeteorsPerWave = 5;
+    public int MeteorsPerWave = 10;
 
     [DataField("meteorVelocity")]
-    public float MeteorVelocity = 10f;
+    public float MeteorVelocity = 20f;
 
     [DataField("maxAngularVelocity")]
-    public float MaxAngularVelocity = 0.25f;
+    public float MaxAngularVelocity = 0.5f;
 
     [DataField("minAngularVelocity")]
-    public float MinAngularVelocity = -0.25f;
+    public float MinAngularVelocity = -0.5f;
 }

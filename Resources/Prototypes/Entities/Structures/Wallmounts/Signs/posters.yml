@@ -591,7 +591,16 @@
     - type: Sprite
       state: poster62_contraband
 
-# Legit
+# Legit NES
+- type: entity
+  parent: PosterBase
+  id: PosterLegitVulpaBluat
+  name: "Vulpa"
+  description: "A poster glorifying the station's security force."
+  components:
+  - type: Sprite
+    state: poster_vulpa
+
 - type: entity
   parent: PosterBase
   id: PosterLegitHereForYourSafety

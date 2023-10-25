@@ -40,6 +40,27 @@
   - type: ExplosionResistance
     damageCoefficient: 0.9
 
+#бронекуртка
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ClothingOuterVestKurtka
+  name: kurtka vest
+  description: A hard-boiled private investigator's armored vest.
+  components:
+  - type: Sprite
+    sprite: Clothing/OuterClothing/Vests/brone_kurtka.rsi
+  - type: Clothing
+    sprite: Clothing/OuterClothing/Vests/brone_kurtka.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.8 #slightly better overall protection but slightly worse than bulletproof armor against bullets seems sensible
+        Slash: 0.8
+        Piercing: 0.8
+        Heat: 0.9
+  - type: ExplosionResistance
+    damageCoefficient: 0.9
+
 #Detective's vest
 - type: entity
   parent: ClothingOuterArmorBasic
