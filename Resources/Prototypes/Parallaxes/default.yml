@@ -6,7 +6,7 @@
   layers:
     - texture:
         !type:ImageParallaxTextureSource
-        path: "/Textures/Parallaxes/layer1.png"
+        path: "/Textures/Parallaxes/NES/BlueParallax.png"
       slowness: 0.998046875
       scale: "1, 1"
     - texture:
@@ -43,9 +43,9 @@
   layers:
     - texture:
         !type:ImageParallaxTextureSource
-        path: "/Textures/Parallaxes/layer1.png"
+        path: "/Textures/Parallaxes/NES/BlueParallax.png"
       slowness: 0.5
-      scale: "3, 3"
+      scale: "1, 1"
     - texture:
         !type:GeneratedParallaxTextureSource
         id: "hq_wizard_stars"

@@ -1,0 +1,10 @@
+- type: weather
+  id: AtmosferaGorit
+  sprite:
+    sprite: /Textures/Effects/weather.rsi
+    state: ashfall
+  sound:
+    path: NES_ivent_resources/reentry.ogg
+    params:
+      loop: true
+      volume: -3

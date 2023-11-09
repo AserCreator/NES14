@@ -10,16 +10,16 @@ role_timers = false
 grid_splitting = true
 
 [procgen]
-preload = true
+preload = false
 
 [salvage]
 expedition_cooldown = 30.0
 
 [shuttle]
-grid_fill = true
+grid_fill = false
 auto_call_time = 0
-emergency = true
-arrivals = true
+emergency = false
+arrivals = false
 
 [admin]
-see_own_notes = true
+see_own_notes = false

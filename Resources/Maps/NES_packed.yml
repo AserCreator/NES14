@@ -5852,7 +5852,7 @@ entities:
     - type: PhysicsMap
     - type: Broadphase
     - type: OccluderTree
-    - parallax: MirStation #NES
+    - parallax: Purple #NES
       type: Parallax
     - type: LoadedMap
     - type: GridTree
@@ -60701,25 +60701,11 @@ entities:
     - pos: 53.506744,-4.54223
       parent: 2
       type: Transform
-- proto: PlushieAxeroArsenia
-  entities:
-  - uid: 8171
-    components:
-    - pos: 69.582634,40.517273
-      parent: 2
-      type: Transform
 - proto: PlushieHampter
   entities:
   - uid: 7808
     components:
     - pos: 36.472656,-10.42504
-      parent: 2
-      type: Transform
-- proto: PlushieLizardVernio
-  entities:
-  - uid: 8165
-    components:
-    - pos: 71.47226,40.498928
       parent: 2
       type: Transform
 - proto: PlushieNar

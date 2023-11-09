@@ -5,8 +5,8 @@
   components:
     - type: AmbientSound
       enabled: false
-      range: 4
-      volume: -4
+      range: 20
+      volume: 1
       sound:
         path: /Audio/Effects/shuttle_thruster.ogg
     - type: Transform
@@ -18,7 +18,7 @@
     - type: Thruster
       damage:
         types:
-          Heat: 40
+          Heat: 200
     - type: InteractionOutline
     - type: Sprite
     - type: Appearance
@@ -38,7 +38,7 @@
           - !type:DoActsBehavior
             acts: ["Destruction"]
     - type: StaticPrice
-      price: 300
+      price: 400
   placement:
     mode: SnapgridCenter
 
@@ -180,3 +180,74 @@
       map: ["enum.ThrusterVisualLayers.ThrustingUnshaded"]
       shader: unshaded
       visible: false
+
+#NES
+
+- type: entity
+  id: BaseThrusterSynd
+  parent: BaseStructureDynamic
+  abstract: true
+  components:
+    - type: AmbientSound
+      enabled: false
+      range: 20
+      volume: 1
+      sound:
+        path: /Audio/Effects/shuttle_thruster.ogg
+    - type: Transform
+      anchored: true
+    - type: Physics
+      bodyType: Static
+    - type: Rotatable
+      rotateWhileAnchored: true
+    - type: Thruster
+      damage:
+        types:
+          Heat: 200
+    - type: InteractionOutline
+    - type: Sprite
+    - type: Appearance
+    - type: ThrusterVisuals
+    - type: ApcPowerReceiver
+      powerLoad: 1500
+    - type: ExtensionCableReceiver
+    - type: Damageable
+      damageContainer: Inorganic
+      damageModifierSet: Metallic
+    - type: Destructible
+      thresholds:
+      - trigger:
+          !type:DamageTrigger
+          damage: 300  # Considering we need a lot of thrusters didn't want to make an individual one too tanky
+        behaviors:
+          - !type:DoActsBehavior
+            acts: ["Destruction"]
+    - type: StaticPrice
+      price: 400
+  placement:
+    mode: SnapgridCenter
+
+- type: entity
+  id: ThrusterSynd
+  name: thrustersynd
+  parent: [ BaseThrusterSynd, ConstructibleMachine ]
+  components:
+  - type: Thruster
+    baseThrust: 2000
+    thrust: 2000
+  - type: Machine
+    board: ThrusterMachineCircuitboard
+  - type: Sprite
+    sprite: Structures/Shuttles/thruster.rsi
+    layers:
+    - state: base
+      map: ["enum.ThrusterVisualLayers.Base"]
+    - state: thrust
+      map: ["enum.ThrusterVisualLayers.ThrustOn"]
+      shader: unshaded
+      visible: false
+    - state: thrust_burn_unshaded
+      map: ["enum.ThrusterVisualLayers.ThrustingUnshaded"]
+      shader: unshaded
+      visible: false
+      offset: 0, 1
